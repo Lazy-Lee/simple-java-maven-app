@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:latest' 
-            args '-v /root/.m2:/root/.m2' 
+            args '-v /Users/liqingxian/.m2:/root/.m2' 
         }
     }
     stages {
